@@ -1,0 +1,692 @@
+{
+  "providers": [
+    {
+      "id": "p1",
+      "name": "Gujrat Desi Kitchen"
+    },
+    {
+      "id": "p2",
+      "name": "Green Bowl Cafe"
+    },
+    {
+      "id": "p3",
+      "name": "Sehat Cloud Kitchen"
+    },
+    {
+      "id": "p4",
+      "name": "City Hospital Cafeteria"
+    },
+    {
+      "id": "p5",
+      "name": "Lahori Tadka"
+    }
+  ],
+  "items": [
+    {
+      "id": "m1",
+      "provider_id": "p1",
+      "name": "Chicken Karahi",
+      "description": "Chicken cooked in tomato, ginger and spices, oily",
+      "calories": 520,
+      "carbs_g": 12,
+      "sugar_g": 5,
+      "sodium_mg": 980,
+      "protein_g": 38,
+      "sat_fat_g": 9,
+      "potassium_mg": 620,
+      "phosphorus_mg": 330,
+      "fiber_g": 2,
+      "allergens": [],
+      "tags": [
+        "non-veg",
+        "spicy"
+      ],
+      "price": 900,
+      "provider_name": "Gujrat Desi Kitchen"
+    },
+    {
+      "id": "m2",
+      "provider_id": "p1",
+      "name": "Daal Chawal",
+      "description": "Lentil curry with steamed rice, light and homely",
+      "calories": 430,
+      "carbs_g": 70,
+      "sugar_g": 3,
+      "sodium_mg": 420,
+      "protein_g": 16,
+      "sat_fat_g": 2,
+      "potassium_mg": 480,
+      "phosphorus_mg": 260,
+      "fiber_g": 8,
+      "allergens": [],
+      "tags": [
+        "vegetarian",
+        "light"
+      ],
+      "price": 350,
+      "provider_name": "Gujrat Desi Kitchen"
+    },
+    {
+      "id": "m3",
+      "provider_id": "p1",
+      "name": "Mixed Sabzi with Roti",
+      "description": "Seasonal vegetables with one whole wheat roti",
+      "calories": 320,
+      "carbs_g": 48,
+      "sugar_g": 6,
+      "sodium_mg": 380,
+      "protein_g": 9,
+      "sat_fat_g": 2,
+      "potassium_mg": 520,
+      "phosphorus_mg": 190,
+      "fiber_g": 9,
+      "allergens": [],
+      "tags": [
+        "vegetarian",
+        "light",
+        "high-fibre"
+      ],
+      "price": 300,
+      "provider_name": "Gujrat Desi Kitchen"
+    },
+    {
+      "id": "m4",
+      "provider_id": "p1",
+      "name": "Beef Nihari",
+      "description": "Slow cooked beef stew, rich and heavy",
+      "calories": 680,
+      "carbs_g": 20,
+      "sugar_g": 4,
+      "sodium_mg": 1250,
+      "protein_g": 42,
+      "sat_fat_g": 14,
+      "potassium_mg": 700,
+      "phosphorus_mg": 380,
+      "fiber_g": 2,
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [
+        "non-veg",
+        "heavy"
+      ],
+      "price": 1100,
+      "provider_name": "Gujrat Desi Kitchen"
+    },
+    {
+      "id": "m5",
+      "provider_id": "p1",
+      "name": "Gajar Halwa",
+      "description": "Carrot dessert with sugar, milk and ghee",
+      "calories": 410,
+      "carbs_g": 55,
+      "sugar_g": 42,
+      "sodium_mg": 90,
+      "protein_g": 6,
+      "sat_fat_g": 11,
+      "potassium_mg": 350,
+      "phosphorus_mg": 150,
+      "fiber_g": 3,
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "dessert",
+        "sweet",
+        "vegetarian"
+      ],
+      "price": 400,
+      "provider_name": "Gujrat Desi Kitchen"
+    },
+    {
+      "id": "m6",
+      "provider_id": "p2",
+      "name": "Grilled Chicken Salad",
+      "description": "Grilled chicken breast with greens and lemon dressing",
+      "calories": 290,
+      "carbs_g": 14,
+      "sugar_g": 5,
+      "sodium_mg": 360,
+      "protein_g": 32,
+      "sat_fat_g": 2,
+      "potassium_mg": 540,
+      "phosphorus_mg": 240,
+      "fiber_g": 5,
+      "allergens": [],
+      "tags": [
+        "non-veg",
+        "light",
+        "high-protein"
+      ],
+      "price": 650,
+      "provider_name": "Green Bowl Cafe"
+    },
+    {
+      "id": "m7",
+      "provider_id": "p2",
+      "name": "Quinoa Veggie Bowl",
+      "description": "Quinoa, chickpeas, cucumber and olive oil",
+      "calories": 360,
+      "carbs_g": 46,
+      "sugar_g": 4,
+      "sodium_mg": 280,
+      "protein_g": 13,
+      "sat_fat_g": 2,
+      "potassium_mg": 510,
+      "phosphorus_mg": 230,
+      "fiber_g": 9,
+      "allergens": [],
+      "tags": [
+        "vegetarian",
+        "high-fibre",
+        "light"
+      ],
+      "price": 700,
+      "provider_name": "Green Bowl Cafe"
+    },
+    {
+      "id": "m8",
+      "provider_id": "p2",
+      "name": "Oats Porridge",
+      "description": "Oats cooked in water with cinnamon, no sugar added",
+      "calories": 210,
+      "carbs_g": 34,
+      "sugar_g": 1,
+      "sodium_mg": 60,
+      "protein_g": 7,
+      "sat_fat_g": 1,
+      "potassium_mg": 230,
+      "phosphorus_mg": 170,
+      "fiber_g": 6,
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [
+        "vegetarian",
+        "breakfast",
+        "light",
+        "high-fibre"
+      ],
+      "price": 300,
+      "provider_name": "Green Bowl Cafe"
+    },
+    {
+      "id": "m9",
+      "provider_id": "p2",
+      "name": "Peanut Butter Smoothie",
+      "description": "Banana, peanut butter and milk",
+      "calories": 420,
+      "carbs_g": 52,
+      "sugar_g": 32,
+      "sodium_mg": 150,
+      "protein_g": 14,
+      "sat_fat_g": 5,
+      "potassium_mg": 780,
+      "phosphorus_mg": 260,
+      "fiber_g": 5,
+      "allergens": [
+        "peanuts",
+        "milk"
+      ],
+      "tags": [
+        "vegetarian",
+        "breakfast",
+        "sweet"
+      ],
+      "price": 500,
+      "provider_name": "Green Bowl Cafe"
+    },
+    {
+      "id": "m10",
+      "provider_id": "p2",
+      "name": "Clear Vegetable Soup",
+      "description": "Light clear soup with carrot, beans and cabbage",
+      "calories": 110,
+      "carbs_g": 18,
+      "sugar_g": 6,
+      "sodium_mg": 310,
+      "protein_g": 4,
+      "sat_fat_g": 0,
+      "potassium_mg": 330,
+      "phosphorus_mg": 90,
+      "fiber_g": 4,
+      "allergens": [],
+      "tags": [
+        "vegetarian",
+        "light",
+        "soup"
+      ],
+      "price": 250,
+      "provider_name": "Green Bowl Cafe"
+    },
+    {
+      "id": "m11",
+      "provider_id": "p3",
+      "name": "Steamed Fish with Vegetables",
+      "description": "Steamed fillet with zucchini and carrot, no oil",
+      "calories": 300,
+      "carbs_g": 10,
+      "sugar_g": 4,
+      "sodium_mg": 330,
+      "protein_g": 34,
+      "sat_fat_g": 1,
+      "potassium_mg": 520,
+      "phosphorus_mg": 280,
+      "fiber_g": 3,
+      "allergens": [
+        "fish"
+      ],
+      "tags": [
+        "non-veg",
+        "light",
+        "high-protein"
+      ],
+      "price": 850,
+      "provider_name": "Sehat Cloud Kitchen"
+    },
+    {
+      "id": "m12",
+      "provider_id": "p3",
+      "name": "Boiled Egg Whites Plate",
+      "description": "Four egg whites with cucumber and one slice of brown bread",
+      "calories": 190,
+      "carbs_g": 16,
+      "sugar_g": 3,
+      "sodium_mg": 260,
+      "protein_g": 22,
+      "sat_fat_g": 0,
+      "potassium_mg": 210,
+      "phosphorus_mg": 60,
+      "fiber_g": 3,
+      "allergens": [
+        "eggs",
+        "gluten"
+      ],
+      "tags": [
+        "breakfast",
+        "light",
+        "high-protein"
+      ],
+      "price": 300,
+      "provider_name": "Sehat Cloud Kitchen"
+    },
+    {
+      "id": "m13",
+      "provider_id": "p3",
+      "name": "Low Salt Chicken Soup",
+      "description": "Homemade chicken soup without added salt",
+      "calories": 160,
+      "carbs_g": 9,
+      "sugar_g": 2,
+      "sodium_mg": 210,
+      "protein_g": 18,
+      "sat_fat_g": 1,
+      "potassium_mg": 300,
+      "phosphorus_mg": 140,
+      "fiber_g": 2,
+      "allergens": [],
+      "tags": [
+        "non-veg",
+        "light",
+        "soup"
+      ],
+      "price": 400,
+      "provider_name": "Sehat Cloud Kitchen"
+    },
+    {
+      "id": "m14",
+      "provider_id": "p3",
+      "name": "Brown Rice Khichdi",
+      "description": "Rice and moong daal khichdi, mild and soft",
+      "calories": 340,
+      "carbs_g": 58,
+      "sugar_g": 2,
+      "sodium_mg": 240,
+      "protein_g": 12,
+      "sat_fat_g": 2,
+      "potassium_mg": 400,
+      "phosphorus_mg": 200,
+      "fiber_g": 6,
+      "allergens": [],
+      "tags": [
+        "vegetarian",
+        "light",
+        "soft"
+      ],
+      "price": 320,
+      "provider_name": "Sehat Cloud Kitchen"
+    },
+    {
+      "id": "m15",
+      "provider_id": "p3",
+      "name": "Apple Cinnamon Bowl",
+      "description": "Chopped apple with yogurt and cinnamon",
+      "calories": 180,
+      "carbs_g": 30,
+      "sugar_g": 22,
+      "sodium_mg": 60,
+      "protein_g": 6,
+      "sat_fat_g": 2,
+      "potassium_mg": 300,
+      "phosphorus_mg": 120,
+      "fiber_g": 4,
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "vegetarian",
+        "sweet",
+        "breakfast"
+      ],
+      "price": 280,
+      "provider_name": "Sehat Cloud Kitchen"
+    },
+    {
+      "id": "m16",
+      "provider_id": "p4",
+      "name": "Hospital Plain Roti Sabzi",
+      "description": "Plain roti with boiled vegetables",
+      "calories": 300,
+      "carbs_g": 50,
+      "sugar_g": 5,
+      "sodium_mg": 300,
+      "protein_g": 8,
+      "sat_fat_g": 1,
+      "potassium_mg": 450,
+      "phosphorus_mg": 170,
+      "fiber_g": 7,
+      "allergens": [],
+      "tags": [
+        "vegetarian",
+        "light"
+      ],
+      "price": 200,
+      "provider_name": "City Hospital Cafeteria"
+    },
+    {
+      "id": "m17",
+      "provider_id": "p4",
+      "name": "Soft Dalia",
+      "description": "Broken wheat porridge with milk",
+      "calories": 260,
+      "carbs_g": 40,
+      "sugar_g": 8,
+      "sodium_mg": 90,
+      "protein_g": 9,
+      "sat_fat_g": 3,
+      "potassium_mg": 260,
+      "phosphorus_mg": 180,
+      "fiber_g": 5,
+      "allergens": [
+        "gluten",
+        "milk"
+      ],
+      "tags": [
+        "vegetarian",
+        "breakfast",
+        "soft"
+      ],
+      "price": 180,
+      "provider_name": "City Hospital Cafeteria"
+    },
+    {
+      "id": "m18",
+      "provider_id": "p4",
+      "name": "Boiled Chicken with Rice",
+      "description": "Plain boiled chicken with white rice",
+      "calories": 410,
+      "carbs_g": 52,
+      "sugar_g": 1,
+      "sodium_mg": 320,
+      "protein_g": 30,
+      "sat_fat_g": 2,
+      "potassium_mg": 420,
+      "phosphorus_mg": 250,
+      "fiber_g": 1,
+      "allergens": [],
+      "tags": [
+        "non-veg",
+        "light",
+        "soft"
+      ],
+      "price": 380,
+      "provider_name": "City Hospital Cafeteria"
+    },
+    {
+      "id": "m19",
+      "provider_id": "p4",
+      "name": "Yogurt Raita Bowl",
+      "description": "Plain low fat yogurt with cucumber",
+      "calories": 120,
+      "carbs_g": 10,
+      "sugar_g": 8,
+      "sodium_mg": 110,
+      "protein_g": 7,
+      "sat_fat_g": 2,
+      "potassium_mg": 290,
+      "phosphorus_mg": 160,
+      "fiber_g": 1,
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "vegetarian",
+        "light"
+      ],
+      "price": 150,
+      "provider_name": "City Hospital Cafeteria"
+    },
+    {
+      "id": "m20",
+      "provider_id": "p4",
+      "name": "Vegetable Pulao",
+      "description": "Rice cooked with mixed vegetables",
+      "calories": 380,
+      "carbs_g": 64,
+      "sugar_g": 4,
+      "sodium_mg": 520,
+      "protein_g": 8,
+      "sat_fat_g": 3,
+      "potassium_mg": 380,
+      "phosphorus_mg": 170,
+      "fiber_g": 4,
+      "allergens": [],
+      "tags": [
+        "vegetarian"
+      ],
+      "price": 320,
+      "provider_name": "City Hospital Cafeteria"
+    },
+    {
+      "id": "m21",
+      "provider_id": "p5",
+      "name": "Chicken Biryani",
+      "description": "Spiced rice and chicken, oily and salty",
+      "calories": 720,
+      "carbs_g": 85,
+      "sugar_g": 5,
+      "sodium_mg": 1320,
+      "protein_g": 34,
+      "sat_fat_g": 12,
+      "potassium_mg": 650,
+      "phosphorus_mg": 340,
+      "fiber_g": 3,
+      "allergens": [],
+      "tags": [
+        "non-veg",
+        "spicy",
+        "heavy"
+      ],
+      "price": 550,
+      "provider_name": "Lahori Tadka"
+    },
+    {
+      "id": "m22",
+      "provider_id": "p5",
+      "name": "Aloo Samosa (2 pcs)",
+      "description": "Deep fried potato pastry",
+      "calories": 360,
+      "carbs_g": 42,
+      "sugar_g": 3,
+      "sodium_mg": 610,
+      "protein_g": 6,
+      "sat_fat_g": 7,
+      "potassium_mg": 410,
+      "phosphorus_mg": 90,
+      "fiber_g": 3,
+      "allergens": [
+        "gluten"
+      ],
+      "tags": [
+        "vegetarian",
+        "fried",
+        "snack"
+      ],
+      "price": 120,
+      "provider_name": "Lahori Tadka"
+    },
+    {
+      "id": "m23",
+      "provider_id": "p5",
+      "name": "Chicken Tikka (4 pcs)",
+      "description": "Grilled marinated chicken pieces",
+      "calories": 310,
+      "carbs_g": 6,
+      "sugar_g": 3,
+      "sodium_mg": 720,
+      "protein_g": 34,
+      "sat_fat_g": 5,
+      "potassium_mg": 440,
+      "phosphorus_mg": 260,
+      "fiber_g": 1,
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "non-veg",
+        "grilled",
+        "high-protein"
+      ],
+      "price": 600,
+      "provider_name": "Lahori Tadka"
+    },
+    {
+      "id": "m24",
+      "provider_id": "p5",
+      "name": "Fresh Fruit Chaat",
+      "description": "Seasonal fruit, no added sugar",
+      "calories": 150,
+      "carbs_g": 36,
+      "sugar_g": 28,
+      "sodium_mg": 20,
+      "protein_g": 2,
+      "sat_fat_g": 0,
+      "potassium_mg": 520,
+      "phosphorus_mg": 60,
+      "fiber_g": 4,
+      "allergens": [],
+      "tags": [
+        "vegetarian",
+        "sweet",
+        "snack"
+      ],
+      "price": 250,
+      "provider_name": "Lahori Tadka"
+    },
+    {
+      "id": "m25",
+      "provider_id": "p5",
+      "name": "Kheer",
+      "description": "Rice pudding with sugar and milk",
+      "calories": 330,
+      "carbs_g": 52,
+      "sugar_g": 38,
+      "sodium_mg": 100,
+      "protein_g": 7,
+      "sat_fat_g": 6,
+      "potassium_mg": 300,
+      "phosphorus_mg": 200,
+      "fiber_g": 1,
+      "allergens": [
+        "milk"
+      ],
+      "tags": [
+        "dessert",
+        "sweet",
+        "vegetarian"
+      ],
+      "price": 220,
+      "provider_name": "Lahori Tadka"
+    },
+    {
+      "id": "m26",
+      "provider_id": "p3",
+      "name": "Zucchini Lentil Stew",
+      "description": "Soft zucchini cooked with masoor daal",
+      "calories": 240,
+      "carbs_g": 32,
+      "sugar_g": 5,
+      "sodium_mg": 230,
+      "protein_g": 13,
+      "sat_fat_g": 1,
+      "potassium_mg": 430,
+      "phosphorus_mg": 210,
+      "fiber_g": 8,
+      "allergens": [],
+      "tags": [
+        "vegetarian",
+        "light",
+        "high-fibre"
+      ],
+      "price": 380,
+      "provider_name": "Sehat Cloud Kitchen"
+    },
+    {
+      "id": "m27",
+      "provider_id": "p2",
+      "name": "Boiled Corn Cup",
+      "description": "Steamed corn with lemon, no butter",
+      "calories": 140,
+      "carbs_g": 30,
+      "sugar_g": 5,
+      "sodium_mg": 25,
+      "protein_g": 4,
+      "sat_fat_g": 1,
+      "potassium_mg": 300,
+      "phosphorus_mg": 110,
+      "fiber_g": 4,
+      "allergens": [],
+      "tags": [
+        "vegetarian",
+        "snack",
+        "light"
+      ],
+      "price": 180,
+      "provider_name": "Green Bowl Cafe"
+    },
+    {
+      "id": "m28",
+      "provider_id": "p4",
+      "name": "Egg Omelette with Toast",
+      "description": "Two egg omelette with brown toast",
+      "calories": 330,
+      "carbs_g": 18,
+      "sugar_g": 3,
+      "sodium_mg": 480,
+      "protein_g": 18,
+      "sat_fat_g": 6,
+      "potassium_mg": 240,
+      "phosphorus_mg": 230,
+      "fiber_g": 3,
+      "allergens": [
+        "eggs",
+        "gluten"
+      ],
+      "tags": [
+        "breakfast"
+      ],
+      "price": 250,
+      "provider_name": "City Hospital Cafeteria"
+    }
+  ]
+}
